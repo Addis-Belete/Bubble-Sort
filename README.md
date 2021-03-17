@@ -1,59 +1,64 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Bubble-sort
 
-> One paragraph statement about the project.
+> we asked to solve the bubble-sort algorithm. we used the yield and block passing method to solve the algorithm.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+We implementeed
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- git clone git@github.com:Addis0943/Bubble-Sort.git
+- cd Bubble-Sort
+- run irb to start irb session
+- load 'sort.rb'
+- You can now call bubble_sort(array) and bubble_sort_by(array) { } to sort your arrays
+
 
 ### Prerequisites
 
+- Basic knowledge Ruby
+- computer
+- Internet connection
+
 ### Setup
+
+- Vs code
+- Git
+- Github
 
 ### Install
 
-### Usage
+- Vs code
+- Git
+- Github
 
-### Run tests
+### Linters
 
-### Deployment
+Install some dependencies by running the following command
 
-
+- Add gem 'rubocop', '~>0.81.0' to Gemfile
+- Run bundle install
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Addis0943](https://github.com/Addis0943)
+- Twitter: [@Addis32018084](https://twitter.com/Addis32018084)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/addis-belete-134b98191/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@chasscepts](https://github.com/chasscepts)
+- Twitter: [@ofChass](https://twitter.com/ofChass)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-obetta-4033b71bb/)
 
 ## 🤝 Contributing
 
@@ -68,9 +73,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Community
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
