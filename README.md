@@ -16,6 +16,10 @@ To get a local copy up and running follow these simple example steps.
 
 - git clone git@github.com:Addis0943/Bubble-Sort.git
 - cd Bubble-Sort
+- run irb to start irb session
+- load 'sort.rb'
+- You can now call bubble_sort(array) and bubble_sort_by(array) { } to sort your arrays
+
 
 ### Prerequisites
 
