@@ -1,6 +1,5 @@
 # iterates over an array up to end index and swaps item positions
 # if current item is greater than next item
-
 def single_pass(array, end_index)
   swaped = false
   (0...end_index).each do |current_index|
@@ -13,6 +12,7 @@ def single_pass(array, end_index)
   swaped
 end
 
+# sorts an array in ascending order using == comparison
 def bubble_sort(array)
   result = array.clone { true }
   end_index = result.length - 1
@@ -20,6 +20,8 @@ def bubble_sort(array)
   result
 end
 
+# iterates over an array up to end index and swaps item positions
+# if a passed in block returns a positive number when called with the current and next items
 def single_pass_with_block(array, end_index)
   swaped = false
   (0...end_index).each do |current_index|
@@ -32,6 +34,7 @@ def single_pass_with_block(array, end_index)
   swaped
 end
 
+# sorts an array based on the return values of a passed in block
 def bubble_sort_by(array, &block)
   result = array.clone { true }
   end_index = result.length - 1
