@@ -4,7 +4,7 @@
 
 > we asked to solve the bubble-sort algorithm. we used the yield and block passing method to solve the algorithm.
 
-Additional description about the project and its features.
+We implementeed
 
 ## Built With
 
