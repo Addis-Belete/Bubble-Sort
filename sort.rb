@@ -31,3 +31,10 @@ def single_pass_with_block(array, end_index)
   end
   swaped
 end
+
+def bubble_sort_by(array, &block)
+  result = array.clone { true }
+  end_index = result.length - 1
+  end_index -= 1 while single_pass_with_block(result, end_index, &block)
+  result
+end
